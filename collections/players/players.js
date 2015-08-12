@@ -21,3 +21,5 @@ Schemas.Player = new SimpleSchema({
         label: "Start date"
     }
 });
+
+Players.attachSchema(Schemas.Player);
